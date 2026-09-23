@@ -1,0 +1,18 @@
+.profile {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.FF {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media (max-width: 600px) {
+    .profile {
+        flex-direction: column;
+    }
+}

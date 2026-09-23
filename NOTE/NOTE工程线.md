@@ -1,6 +1,6 @@
-1.一次完整的工程线
+1.一次完整的工作流
 
-**git status**--(modified:...红)--**git add （文件名）**--**git status**--(green)--**git commit -m "situation"**--**git push**（前提是已建立跟踪关系）
+###### 第一次拿项目：git clone 地址 -- **git status**--(modified:...红)--**git add （文件名）or git add .**--**git status**--(green)--**git commit -m "situation"**--**git push**（前提是已建立跟踪关系）
 
 
 
@@ -26,7 +26,7 @@
 
 3.建立跟踪关系
 
-**git remote add origin (repository的网址)**-**-git remote -v--(fetch)(push)--git push -u origin main--登录授权**
+**git remote add origin (repository的网址)**-**-git remote -v  --(fetch)(push)--  git push -u origin main --登录授权**
 
 
 
@@ -54,5 +54,17 @@ main
 
 
 
+###### 4\.**git log --oneline**
 
+###### 简洁查看 commit 历史
+
+
+
+
+
+
+
+
+
+&#x20;     
 
